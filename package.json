@@ -1,0 +1,26 @@
+{
+  "name": "svelte-yoga-dadjoke",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "gql": "nodemon ./src/gql.js",
+    "start": "sirv public"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "nodemon": "^2.0.4",
+    "rollup": "^2.3.4",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "svelte": "^3.0.0"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.4.9",
+    "graphql-yoga": "^1.18.3",
+    "sirv-cli": "^0.4.4",
+    "svelte-apollo": "^0.3.0"
+  }
+}
